@@ -8,5 +8,5 @@ sed -i 's/bash/zsh/' /etc/adduser.conf
 cd /etc/lightdm
 wget https://raw.githubusercontent.com/jteske54/linux/master/ubuntu/lightdm.conf
 apt-get update
-apt-get install zsh vim gdebi dconf-tools -y
+apt-get install zsh vim gdebi dconf-tools network-manager-openvpn-gnome -y
 reboot
