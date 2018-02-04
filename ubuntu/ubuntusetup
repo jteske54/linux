@@ -8,5 +8,7 @@ sed -i 's/bash/zsh/' /etc/adduser.conf
 cd /etc/lightdm
 wget https://raw.githubusercontent.com/jteske54/linux/master/ubuntu/lightdm.conf
 apt-get update
-apt-get install zsh vim gdebi dconf-tools network-manager-openvpn-gnome -y
+apt-get upgrade -y
+apt-get dist-upgrade -y
+apt-get install apache2 mysql-server php5 libapache zsh vim gdebi dconf-tools network-manager-openvpn-gnome openvpn easy-rsa -y
 reboot
